@@ -1,0 +1,26 @@
+2019-08-24 14:30:08 DEBUG com.jocata.tbml.framework.TakeAction:2663 - Element is found : [[ChromeDriver: chrome on XP (5222431e85b98d77c3720f1d6234f640)] -> xpath: //input[@name='uid']]
+2019-08-24 14:30:09 DEBUG com.jocata.tbml.framework.TakeAction:2663 - Element is found : [[ChromeDriver: chrome on XP (5222431e85b98d77c3720f1d6234f640)] -> xpath: //input[@name='password']]
+2019-08-24 14:30:20 DEBUG com.jocata.tbml.framework.TakeAction:2667 - Element is not found 
+2019-08-24 14:30:30 DEBUG com.jocata.tbml.framework.TakeAction:2667 - Element is not found 
+2019-08-24 15:47:58 DEBUG com.jocata.tbml.framework.TakeAction:2663 - Element is found : [[ChromeDriver: chrome on XP (92ae339438eb3cdce2b65a9a86daa7cf)] -> xpath: //td[contains(text(),'UserID')]]
+2019-08-24 15:47:58 DEBUG com.jocata.tbml.framework.TakeAction:2663 - Element is found : [[ChromeDriver: chrome on XP (92ae339438eb3cdce2b65a9a86daa7cf)] -> xpath: //td[contains(text(),'Password')]]
+2019-08-24 15:47:59 DEBUG com.jocata.tbml.framework.TakeAction:2663 - Element is found : [[ChromeDriver: chrome on XP (92ae339438eb3cdce2b65a9a86daa7cf)] -> xpath: //input[@name='btnLogin']]
+2019-08-24 15:47:59 DEBUG com.jocata.tbml.framework.TakeAction:2663 - Element is found : [[ChromeDriver: chrome on XP (92ae339438eb3cdce2b65a9a86daa7cf)] -> xpath: //input[@name='uid']]
+2019-08-24 15:47:59 DEBUG com.jocata.tbml.framework.TakeAction:2663 - Element is found : [[ChromeDriver: chrome on XP (92ae339438eb3cdce2b65a9a86daa7cf)] -> xpath: //input[@name='password']]
+2019-08-24 15:48:00 DEBUG com.jocata.tbml.framework.TakeAction:2663 - Element is found : [[ChromeDriver: chrome on XP (92ae339438eb3cdce2b65a9a86daa7cf)] -> xpath: //input[@name='btnLogin']]
+2019-08-24 15:48:08 DEBUG com.jocata.tbml.framework.TakeAction:2663 - Element is found : [[ChromeDriver: chrome on XP (92ae339438eb3cdce2b65a9a86daa7cf)] -> xpath: //a[contains(text(),'here')]]
+2019-08-24 15:48:21 DEBUG com.jocata.tbml.framework.TakeAction:2667 - Element is not found 
+2019-08-24 15:48:31 DEBUG com.jocata.tbml.framework.TakeAction:2667 - Element is not found 
+2019-08-24 15:48:42 DEBUG com.jocata.tbml.framework.TakeAction:2667 - Element is not found 
+2019-08-24 15:48:45 DEBUG com.jocata.tbml.framework.TakeAction:2663 - Element is found : [[ChromeDriver: chrome on XP (92ae339438eb3cdce2b65a9a86daa7cf)] -> xpath: //td[contains(text(),'UserID')]]
+2019-08-24 15:48:45 DEBUG com.jocata.tbml.framework.TakeAction:2663 - Element is found : [[ChromeDriver: chrome on XP (92ae339438eb3cdce2b65a9a86daa7cf)] -> xpath: //td[contains(text(),'Password')]]
+2019-08-24 15:48:55 DEBUG com.jocata.tbml.framework.TakeAction:2667 - Element is not found 
+2019-08-24 15:48:59 DEBUG com.jocata.tbml.framework.TakeAction:2663 - Element is found : [[ChromeDriver: chrome on XP (92ae339438eb3cdce2b65a9a86daa7cf)] -> xpath: //td[contains(text(),'UserID')]]
+2019-08-24 15:48:59 DEBUG com.jocata.tbml.framework.TakeAction:2663 - Element is found : [[ChromeDriver: chrome on XP (92ae339438eb3cdce2b65a9a86daa7cf)] -> xpath: //td[contains(text(),'Password')]]
+2019-08-24 15:49:09 DEBUG com.jocata.tbml.framework.TakeAction:2667 - Element is not found 
+2019-08-24 15:49:12 DEBUG com.jocata.tbml.framework.TakeAction:2663 - Element is found : [[ChromeDriver: chrome on XP (92ae339438eb3cdce2b65a9a86daa7cf)] -> xpath: //td[contains(text(),'UserID')]]
+2019-08-24 15:49:12 DEBUG com.jocata.tbml.framework.TakeAction:2663 - Element is found : [[ChromeDriver: chrome on XP (92ae339438eb3cdce2b65a9a86daa7cf)] -> xpath: //td[contains(text(),'Password')]]
+2019-08-24 15:49:23 DEBUG com.jocata.tbml.framework.TakeAction:2667 - Element is not found 
+2019-08-24 15:49:25 DEBUG com.jocata.tbml.framework.TakeAction:2663 - Element is found : [[ChromeDriver: chrome on XP (92ae339438eb3cdce2b65a9a86daa7cf)] -> xpath: //td[contains(text(),'UserID')]]
+2019-08-24 15:49:26 DEBUG com.jocata.tbml.framework.TakeAction:2663 - Element is found : [[ChromeDriver: chrome on XP (92ae339438eb3cdce2b65a9a86daa7cf)] -> xpath: //td[contains(text(),'Password')]]
+2019-08-24 15:49:36 DEBUG com.jocata.tbml.framework.TakeAction:2667 - Element is not found 

@@ -1,0 +1,67 @@
+StepKey,Method,Web Object,Web Element,Value to set,description
+,,,,,
+Login,open,getEnvValue(url),,,Jocata Grid URL launched
+,,,,,
+Login1,verifyTextAtLocation,getObjValue(frgtUNameLnk),xpath,getEnvValue(frgtUNameLnk),Verifying the value from Forgot username link
+Login1,verifyTextAtLocation,getObjValue(frgtPwdLnk),xpath,getEnvValue(frgtPwdLnk),Verifying the value from Forgot password link
+Login1,verifyTextAtLocation,getObjValue(logInBtn),xpath,getEnvValue(logInBtn),Verifying the value from login button
+Login1,type,getObjValue(userName),xpath,getEnvValue(userName),Entering the value into username field
+Login1,password,getObjValue(password),xpath,getEnvValue(password),Entering the value into password field
+Login1,click,getObjValue(logInBtn),xpath,,Clicking on Login button
+,WaitForSpinner,getObjValue(spinner),id,,Wait till the spinner disappeared
+,,,,,
+LogoutPage,click,getObjValue(hereLnk),xpath,,Clicking on Click here link to go login page
+,,,,,
+Login2,verifyTextAtLocation,getObjValue(frgtUNameLnk),xpath,getEnvValue(frgtUNameLnk),Verifying the value from Forgot username link
+Login2,verifyTextAtLocation,getObjValue(frgtPwdLnk),xpath,getEnvValue(frgtPwdLnk),Verifying the value from Forgot password link
+Login2,type,getObjValue(userName),id,getEnvValue(userName1),Entering invalid username
+Login2,password,getObjValue(password),id,getEnvValue(password),Entering valid password
+Login2,click,getObjValue(logInBtn),id,,Clicking on Login button
+Login2,verifyTextAtLocation,getObjValue(wrngCrdntls),id,getEnvValue(wrngCrdntls),Verifying the Invalid credentials Error message
+,,,,,
+Login3,verifyTextAtLocation,getObjValue(frgtUNameLnk),xpath,getEnvValue(frgtUNameLnk),Verifying the value from Forgot username link
+Login3,verifyTextAtLocation,getObjValue(frgtPwdLnk),xpath,getEnvValue(frgtPwdLnk),Verifying the value from Forgot password link
+Login3,type,getObjValue(userName),id,getEnvValue(userName),Entering valid username
+Login3,password,getObjValue(password),id,getEnvValue(password1),Entering invalid password
+Login3,click,getObjValue(logInBtn),id,,Clicked on 'Sign in' link
+Login3,verifyTextAtLocation,getObjValue(loginErrorMsg),xpath,getEnvValue(loginErrorMsg),Verifying the Invalid credentials Error message
+,,,,,
+Login4,verifyTextAtLocation,getObjValue(frgtUNameLnk),xpath,getEnvValue(frgtUNameLnk),Verifying the value from Forgot username link
+Login4,verifyTextAtLocation,getObjValue(frgtPwdLnk),xpath,getEnvValue(frgtPwdLnk),Verifying the value from Forgot password link
+Login4,type,getObjValue(userName),id,getEnvValue(userName1),Provided UserName
+Login4,password,getObjValue(password),id,getEnvValue(password1),Provided Password
+Login4,click,getObjValue(logInBtn),id,,Clicked on 'Sign in' link
+Login4,verifyTextAtLocation,getObjValue(wrngCrdntls),id,getEnvValue(wrngCrdntls),Verifying the Invalid credentials Error message
+,,,,,
+Login5,verifyTextAtLocation,getObjValue(frgtUNameLnk),xpath,getEnvValue(frgtUNameLnk),Verifying the value from Forgot username link
+Login5,verifyTextAtLocation,getObjValue(frgtPwdLnk),xpath,getEnvValue(frgtPwdLnk),Verifying the value from Forgot password link
+Login5,click,getObjValue(logInBtn),id,,Clicked on 'Sign in' link
+Login5,verifyTextAtLocation,getObjValue(msgPopUp),id,getEnvValue(msgPopUp),Verifying the alert pop-up header
+Login5,verifyTextAtLocation,getObjValue(uNameAlrtMsg),id,getEnvValue(uNameAlrtMsg),Verifying the value from username alert pop-up message text
+Login5,verifyTextAtLocation,getObjValue(uNameAlertOkBtn),id,getEnvValue(uNameAlertOkBtn),Verifying the OK button value from the alert pop-up
+,,,,,
+Login6,verifyTextAtLocation,getObjValue(frgtUNameLnk),xpath,getEnvValue(frgtUNameLnk),Verifying the value from Forgot username link
+Login6,verifyTextAtLocation,getObjValue(frgtPwdLnk),xpath,getEnvValue(frgtPwdLnk),Verifying the value from Forgot password link
+Login6,click,getObjValue(logInBtn),id,,Clicked on 'Sign in' link
+Login6,verifyTextAtLocation,getObjValue(msgPopUp),id,getEnvValue(msgPopUp),Verifying the alert pop-up header
+Login6,verifyTextAtLocation,getObjValue(uNameAlrtMsg),id,getEnvValue(uNameAlrtMsg),Verifying the value from username alert pop-up message text
+Login6,verifyTextAtLocation,getObjValue(uNameAlertOkBtn),id,getEnvValue(uNameAlertOkBtn),Verifying the OK button value from the alert pop-up
+Login6,click,getObjValue(uNameAlertOkBtn),id,,Clicking on the OK button to close the pop-up
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+Logout,click,getObjValue(downArrowIcon),id,,Clicking on arrow icon to logout
+Logout,click,getObjValue(logOut),xpath,,Clicking on Logout button
